@@ -52,6 +52,7 @@ html{
 body{
   height: 100%; 
 }
+/* global styles */
 ul, ol{
   list-style: none;
 }
@@ -63,6 +64,7 @@ a{
   max-width: 960px;
   margin: 0 auto;
 }
+/* header */
 .nav{
   display: flex;
   align-items: center;
@@ -168,6 +170,7 @@ a{
   align-items: center;
   justify-content: center;
   padding: 28px 0 38px;
+  margin-bottom: 69px;
 }
 .f-title { 
   color: rgba(255, 255, 255, 0.31);
@@ -180,5 +183,64 @@ a{
   align-items: center;
   gap: 37px;
 }
-.f-img {
+
+/* main */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-title {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 29px;
+  line-height: 36px;
+  padding-bottom: 10px;
+}
+.main-subtitle {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 19px;
+  line-height: 22px;
+  padding-bottom: 69px;
+}
+.application {
+  display: flex;
+  align-items: center;  
+  gap: 20px;
+  padding-bottom: 14px;
+}
+.main-img {
+  display: flex;
+  width: 100%;
+  max-width: 460px;
+}
+.icon{
+  padding-bottom: 11px;
+}
+.title {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 30px;
+  padding-bottom: 17px; 
+}
+.content {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 50px;
+}
+.mobile {
+  display: flex;
+  align-items: center;     
+  /* justify-content: space-between;  */
+  /* gap: 40px;  */
+  position: relative;
+  margin-bottom: 71px;
+}
+.mobile .main-img{
+  position: relative;
+  right: -100px;
 }
