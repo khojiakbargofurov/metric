@@ -307,3 +307,40 @@ span{
   line-height: 22px;
   padding-top: 19px;
 }
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  padding: 70px 0;
+}
+.about-title {
+  color: #333;
+  font-family: Roboto;
+  font-size: 29px;
+  line-height: 36px; 
+  padding-bottom: 45px;
+}
+.about-subtitle {
+  color: #333;
+  font-family: Roboto Slab;
+  font-size: 25px;
+  line-height: 31px;
+  padding-bottom: 22px;
+}
+.about-img {
+  padding-bottom: 12px;
+}
+.name {
+  color: #333;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 22px;
+}
+.job {
+  color: #333;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 22px;
+}
