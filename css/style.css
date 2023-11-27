@@ -344,3 +344,9 @@ span{
   font-size: 15px;
   line-height: 22px;
 }
+.brands {
+  background-color: var(--brands-bg);
+}
+.brands-container {
+  display: flex;
+}
